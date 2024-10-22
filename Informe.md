@@ -16,7 +16,7 @@ Este tipo de ataques consiste en manipular psicológicamente a las víctimas par
 + **Whaling:** Estos ataques, tambien conocidos como "cazas de ballenas", son similares a los ataques de spear phishing.La principal diferencia es que van dirigidos a altos cargos de las empresas, como CEOs y CFOs ya que estos suelen tener acceso completo a la empresa y a su información confidencial.
 
 ### Ataques de malware
-Estos ataques utilizan software malicioso para infiltrarse, dañar o deshabilitar los sistemas de una red. Veremos cuatro tipos:
+Estos ataques utilizan software malicioso para infiltrarse, dañar o deshabilitar los sistemas de una red. Veremos seis tipos:
 
 + **Virus:** Es un código malicioso que infecta los archivos del sistema y que debe de ser ejecutado por un usuario. Una vez dentro se propaga a todo lo que tenga acceso.
 + **Gusanos:** Es un programa que, al igual que los virus, una vez infectado el dispositivo empieza a propagarse, en este caso a otros dispositivos a través de la red. Las principales diferencias con los virus son que en el caso de los gusanos no necesita que un usuario lo ejecute y que como su principal objetivos es la propagación a otros equipos no afecta al funcionamiento normal del sistema. 
@@ -30,11 +30,13 @@ Estos ataques utilizan software malicioso para infiltrarse, dañar o deshabilita
 + **Adware:** Su principal función es mostrar publicidad de forma invasiva y, aunque su objetivo no es dañar a los sistemas, puede ser considerado un spyware ya que es posible que recopile y transmita información del usuario para mostrar publicidad más personalizada al usuario.
 
 ### Ataques a redes y sistemas
+Son ataques que aprovechan vulnerabilidades en la infraestructura de redes y sistemas informáticos con el objetivo de comprometer la seguridad, interrumpir operaciones u obtener acceso a datos e información sensible. Hablaremos de cuatro tipos
 
-+ **Ataques de denegación de servicio distribuida (DDoS):**
-+ **Man-in-the-Middle (MitM):**
-+ **Inyección SQL:**
-+ **Ataques de fuerza bruta:**
++ **Denegación de servicio distribuido (DDoS):** Consiste en realizar peticiones constantes a un servidor hasta lograr que colapse y deje de funcionar probocando así la parada del servicio suministrado por el servidor. Para estos ataques se suelen usar botnets formadas por equipos infectados por gusanos.
+
++ **Man-in-the-Middle (MitM):** Es un tipo de ataque en el que el ciberdelincuente intercepta la comunicación de dos dispositivos pudiendo leerla o modificarla. Tienen como fin el robo de datos o la manipulación de los mismos.
++ **Inyección SQL:** Consiste en inflitrar código en un campo de entrada de una aplicación web aprovechandose de vulnerabilidades en ella. De esta manera los ciberdelincuentes pueden obtener acceso a la base de datos de la aplicación web y obtener información sensible, modificarla u obtener control de la aplicación web.
++ **Ataques de fuerza bruta:** Consiste en intentar obtener acceso a un dispositivo de una red o a información protegida por una contraseña a base de intentar descifrar dichas contraseñas probando múltiples combinaciones hasta encontrar una. Se puede realizar probando todas las combinaciones posibles, con el uso de un diccionario de contraseñas o con una combinación de ambas.
 
 ## Metodologías de pentesting
 
