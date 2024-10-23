@@ -38,6 +38,7 @@ Son ataques que aprovechan vulnerabilidades en la infraestructura de redes y sis
 + **Inyección SQL:** Consiste en inflitrar código en un campo de entrada de una aplicación web aprovechandose de vulnerabilidades en ella. De esta manera los ciberdelincuentes pueden obtener acceso a la base de datos de la aplicación web y obtener información sensible, modificarla u obtener control de la aplicación web.
 + **Ataques de fuerza bruta:** Consiste en intentar obtener acceso a un dispositivo de una red o a información protegida por una contraseña a base de intentar descifrar dichas contraseñas probando múltiples combinaciones hasta encontrar una. Se puede realizar probando todas las combinaciones posibles, con el uso de un diccionario de contraseñas o con una combinación de ambas.
 
+
 ## Metodologías de pentesting
 
 
