@@ -3,17 +3,17 @@
 
 
 ## Clasificación de tipos de ataque
-Esta parte del informe se centrará en la investigación y clasificación de los ataques cibernéticos más comunes teniendo en cuenta los métidos, características y objetivos de cada uno.
+Esta parte del informe se centrará en la investigación y clasificación de los ataques cibernéticos más comunes teniendo en cuenta los métodos, características y objetivos de cada uno.
 
 ### Ataques de ingeniería social
 Este tipo de ataques consiste en manipular psicológicamente a las víctimas para obtener información del usuario o acceso a sus dispositivos. Existen tres tipos:
 
-+ **Phishing:** Se usa principalmente para robar datos del usuario como números de tarjetas de credito o contraseñas. Los ciberdelincuentes se suelen hacer pasar por personas o entidades de confianza (servicio de correos, bancos...) y enganñan a la víctima con un mensaje normalmente alarmante para que pinchen en el enlace malicioso proporcionado. 
++ **Phishing:** Se usa principalmente para robar datos del usuario como números de tarjetas de crédito o contraseñas. Los ciberdelincuentes se suelen hacer pasar por personas o entidades de confianza (servicio de correos, bancos...) y engañan a la víctima con un mensaje normalmente alarmante para que pinchen en el enlace malicioso proporcionado. 
 
     Se le llama smishing en caso de realizarse por SMS o vishing si se realiza a través de una llamada.
 
 + **Spear Phishing:** Son ataques de phishing dirigidos a una persona o empleado concreto de una compañía específica con el fin de obtener información o acceso a dicha compañía. Para ganarse su confianza los ciberdelincuentes investigan meticulosamente a la víctima recopilando toda la información posible antes de comenzar.
-+ **Whaling:** Estos ataques, tambien conocidos como "cazas de ballenas", son similares a los ataques de spear phishing.La principal diferencia es que van dirigidos a altos cargos de las empresas, como CEOs y CFOs ya que estos suelen tener acceso completo a la empresa y a su información confidencial.
++ **Whaling:** Estos ataques, también conocidos como "cazas de ballenas", son similares a los ataques de spear phishing. La principal diferencia es que van dirigidos a altos cargos de las empresas, como CEOs y CFOs ya que estos suelen tener acceso completo a la empresa y a su información confidencial.
 
 ### Ataques de malware
 Estos ataques utilizan software malicioso para infiltrarse, dañar o deshabilitar los sistemas de una red. Veremos seis tipos:
@@ -32,10 +32,10 @@ Estos ataques utilizan software malicioso para infiltrarse, dañar o deshabilita
 ### Ataques a redes y sistemas
 Son ataques que aprovechan vulnerabilidades en la infraestructura de redes y sistemas informáticos con el objetivo de comprometer la seguridad, interrumpir operaciones u obtener acceso a datos e información sensible. Hablaremos de cuatro tipos
 
-+ **Denegación de servicio distribuido (DDoS):** Consiste en realizar peticiones constantes a un servidor hasta lograr que colapse y deje de funcionar probocando así la parada del servicio suministrado por el servidor. Para estos ataques se suelen usar botnets formadas por equipos infectados por gusanos.
++ **Denegación de servicio distribuido (DDoS):** Consiste en realizar peticiones constantes a un servidor hasta lograr que colapse y deje de funcionar provocando así la parada del servicio suministrado por el servidor. Para estos ataques se suelen usar botnets formadas por equipos infectados por gusanos.
 
 + **Man-in-the-Middle (MitM):** Es un tipo de ataque en el que el ciberdelincuente intercepta la comunicación de dos dispositivos pudiendo leerla o modificarla. Tienen como fin el robo de datos o la manipulación de los mismos.
-+ **Inyección SQL:** Consiste en inflitrar código en un campo de entrada de una aplicación web aprovechandose de vulnerabilidades en ella. De esta manera los ciberdelincuentes pueden obtener acceso a la base de datos de la aplicación web y obtener información sensible, modificarla u obtener control de la aplicación web.
++ **Inyección SQL:** Consiste en infiltrar código en un campo de entrada de una aplicación web aprovechándose de vulnerabilidades en ella. De esta manera los ciberdelincuentes pueden obtener acceso a la base de datos de la aplicación web y obtener información sensible, modificarla u obtener control de la aplicación web.
 + **Cross-Site Scripting (XSS):** Es un tipo de inyección en la que el atacante envía secuencias de comandos maliciosos al contenido de páginas web para desacreditarla. Cuando una víctima accede a la aplicación web, el navegador de la víctima ve el código malicioso del ciberdelincuente como parte del sitio web y lo ejecuta.
 + **Ataques de fuerza bruta:** Consiste en intentar obtener acceso a un dispositivo de una red o a información protegida por una contraseña a base de intentar descifrar dichas contraseñas probando múltiples combinaciones hasta encontrar una. Se puede realizar probando todas las combinaciones posibles, con el uso de un diccionario de contraseñas o con una combinación de ambas.
 
