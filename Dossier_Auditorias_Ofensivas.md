@@ -5,8 +5,8 @@
 ## Propuesta de auditorías ofensivas
 A continuación introduciremos los distintos tipos de auditoría que ofrecemos, indicando los servicios de cada una, su alcance y los resultados que el cliente puede esperar.
 
-### Auditoria aplicaciones web
-Esta auditoría tiene como objetivo identificar vulnerabilidades que un atacante pueda explotar en las aplicaciones web de nuestro cliente.
+### Auditoria de seguridad de aplicaciones
+Esta auditoría tiene como objetivo evaluar la seguridad de los sistemas y aplicaciones usados o desarrollados, identificando vulnerabilidades que un atacante pueda llocalizar y explotar.
 
 **Servicios ofrecidos**
 + Pruebas de inyección SQL, cross-site scripting (XSS)...
@@ -16,15 +16,30 @@ Esta auditoría tiene como objetivo identificar vulnerabilidades que un atacante
 
 **Alcance**
 
-Se analizarán únicamente las aplicaciones web que el cliente tenga desplegadas, ya sean internas o externas, priorizando las que manegen datos sensibles.
+Se analizarán únicamente las aplicaciones que el cliente tenga desplegadas, ya sean internas o externas, priorizando las que manegen datos sensibles.
 
 **Resultados esperados**
 + Informe detallado de las vulnerabilidades encontradas y categorizadas por su gravedad.
 + Recomendaciones para mitigar las vulnerabilidades encontradas.
-+ Mejora en la seguridad de las aplicaciones web tras implementar las contramedidas sugeridas.
++ Mejora en la seguridad de las aplicaciones tras implementar las contramedidas sugeridas.
 
-### Auditoria de red interna
+### Auditoria de seguridad de redes
+La auditoría de seguridad de red se centra en evaluar la seguridad de la infraestructura de red de la organización. Para ello se identifican vulnerabilidades en servidores, routers, switches, ordenadores personales, firewalls y otros dispositivos de la red de la empresa.
 
+**Servicios ofrecidos**
++ Pruebas de penetración interna en la que se simula un ataque con acceso limitado.
++ Revisión de la configuración y la seguridad de dispositivos internos como firewalls, switches y routers.
++ Revision de la gestión de parches y actualizaciones.
+
+**Alcance**
+Se realizará sobre todos los activos conectados a la red interna de la empresa (Servidores, switches, portatiles...).
+
+**Resultados esperados**
++ Un informe detallado con los hallazgos y recomendaciones para mejorar la seguridad interna.
++ Un plan de acción para la mitigación de las vulnerabilidades identificadas.
+
+### Auditoria de gestión de incidentes
+Este tipo de auditoría evalua los procedimientos y la capacidad de respuesta de la organización ante diversos incidentes de seguridad.
 
 **Servicios ofrecidos**
 
@@ -35,20 +50,8 @@ Se analizarán únicamente las aplicaciones web que el cliente tenga desplegadas
 **Resultados esperados**
 
 
-### Auditoria de red externa
-
-
-**Servicios ofrecidos**
-
-
-**Alcance**
-
-
-**Resultados esperados**
-
-
-### Auditoria de red team
-
+### Auditoria de políticas y procedimientos
+La auditoría de políticas y procedimientos se centra en la revisión y evaluación de las políticas, normas y procedimientos de seguridad establecidos en la empresa. 
 
 **Servicios ofrecidos**
 
@@ -62,3 +65,8 @@ Se analizarán únicamente las aplicaciones web que el cliente tenga desplegadas
 
 
 ## Propuesta de herramientas de monitorización
+
+
+## Fuentes
+[Auditoría de seguridad informática: qué es, ventajas, tipos y fases](https://blog.hubspot.es/website/auditoria-de-seguridad
+)
