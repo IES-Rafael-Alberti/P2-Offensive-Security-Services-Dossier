@@ -1,14 +1,113 @@
 # Informe sobre tipos de ataque, metodologías de pentesting y herramientas
+![Portada](portada.png)
+
+**Participantes:** *Grupo 3*
+- Jesús Cordero
+- Álvaro González
+- Alejandro Seoane
+- Israel Valderrama
+
+## Índice
+- [Introducción](#introducción)
+- [Clasificación de tipos de ataque](#clasificación-de-tipos-de-ataque)
+    - [Ataques de ingeniería social](#ataques-de-ingeniería-social)
+    - [Ataques de malware](#ataques-de-malware)
+    - [Ataques a redes y sistemas](#ataques-a-redes-y-sistemas)
+- [Metodologías de pentesting](#metodologías-de-pentesting)
+- [Evaluación de herramientas de monitorización](#evaluación-de-herramientas-de-monitorización)
+    - [Herramientas ataques de ingeniería social](#herramientas-ataques-de-ingeniería-social)
+- [Conclusiones](#conclusiones)
+- [Fuentes](#fuentes)
+
+
 ## Introducción
 
 
 ## Clasificación de tipos de ataque
+Esta parte del informe se centrará en la investigación y clasificación de los ataques cibernéticos más comunes teniendo en cuenta los métodos, características y objetivos de cada uno.
 
+### Ataques de ingeniería social
+Este tipo de ataques consiste en manipular psicológicamente a las víctimas para obtener información del usuario o acceso a sus dispositivos. Existen tres tipos:
+
++ **Phishing:** Se usa principalmente para robar datos del usuario como números de tarjetas de crédito o contraseñas. Los ciberdelincuentes se suelen hacer pasar por personas o entidades de confianza (servicio de correos, bancos...) y engañan a la víctima con un mensaje normalmente alarmante para que pinchen en el enlace malicioso proporcionado. 
+
+    Se le llama smishing en caso de realizarse por SMS o vishing si se realiza a través de una llamada.
+
++ **Spear Phishing:** Son ataques de phishing dirigidos a una persona o empleado concreto de una compañía específica con el fin de obtener información o acceso a dicha compañía. Para ganarse su confianza los ciberdelincuentes investigan meticulosamente a la víctima recopilando toda la información posible antes de comenzar.
++ **Whaling:** Estos ataques, también conocidos como "cazas de ballenas", son similares a los ataques de spear phishing. La principal diferencia es que van dirigidos a altos cargos de las empresas, como CEOs y CFOs ya que estos suelen tener acceso completo a la empresa y a su información confidencial.
+
+### Ataques de malware
+Estos ataques utilizan software malicioso para infiltrarse, dañar o deshabilitar los sistemas de una red. Veremos seis tipos:
+
++ **Virus:** Es un código malicioso que infecta los archivos del sistema y que debe de ser ejecutado por un usuario. Una vez dentro se propaga a todo lo que tenga acceso.
++ **Gusanos:** Es un programa que, al igual que los virus, una vez infectado el dispositivo empieza a propagarse, en este caso a otros dispositivos a través de la red. Las principales diferencias con los virus son que en el caso de los gusanos no necesita que un usuario lo ejecute y que como su principal objetivos es la propagación a otros equipos no afecta al funcionamiento normal del sistema. 
+
+    Principalmente se usan para crear botnets para luego realizar acciones de forma remota.
++ **Troyanos:** Suelen estar integrados en archivos ejecutables aparentemente inofensivos. Una vez ejecutado este archivo ejecutable, el troyano crea una puerta trasera para facilitar la entrada del ciberdelincuente u otros malwares al dispositivo.
++ **Ransomware:** Se suele propagar como los troyanos, integrado en un archivo ejecutable pero, a diferencia de los troyanos, los ransomware secuestran a los datos encriptándolos y pidiendo un rescate (normalmente en criptomonedas) a cambio de la clave para desencriptar los datos. Pagar el rescate no asegura que los ciberdelincuentes nos vayan a suministrar la clave.
+
+    Este tipo de ataque puede provocar el paro total de las actividades de una empresa hasta que se solucione.
++ **Spyware:** Son programas espía cuyo principal objetivo es la obtención de información intentando dejar el menor rastro posible para no ser detectado.
++ **Adware:** Su principal función es mostrar publicidad de forma invasiva y, aunque su objetivo no es dañar a los sistemas, puede ser considerado un spyware ya que es posible que recopile y transmita información del usuario para mostrar publicidad más personalizada al usuario.
+
+### Ataques a redes y sistemas
+Son ataques que aprovechan vulnerabilidades en la infraestructura de redes y sistemas informáticos con el objetivo de comprometer la seguridad, interrumpir operaciones u obtener acceso a datos e información sensible. Hablaremos de cuatro tipos
+
++ **Denegación de servicio distribuido (DDoS):** Consiste en realizar peticiones constantes a un servidor hasta lograr que colapse y deje de funcionar provocando así la parada del servicio suministrado por el servidor. Para estos ataques se suelen usar botnets formadas por equipos infectados por gusanos.
+
++ **Man-in-the-Middle (MitM):** Es un tipo de ataque en el que el ciberdelincuente intercepta la comunicación de dos dispositivos pudiendo leerla o modificarla. Tienen como fin el robo de datos o la manipulación de los mismos.
++ **Inyección SQL:** Consiste en infiltrar código en un campo de entrada de una aplicación web aprovechándose de vulnerabilidades en ella. De esta manera los ciberdelincuentes pueden obtener acceso a la base de datos de la aplicación web y obtener información sensible, modificarla u obtener control de la aplicación web.
++ **Cross-Site Scripting (XSS):** Es un tipo de inyección en la que el atacante envía secuencias de comandos maliciosos al contenido de páginas web para desacreditarla. Cuando una víctima accede a la aplicación web, el navegador de la víctima ve el código malicioso del ciberdelincuente como parte del sitio web y lo ejecuta.
++ **Ataques de fuerza bruta:** Consiste en intentar obtener acceso a un dispositivo de una red o a información protegida por una contraseña a base de intentar descifrar dichas contraseñas probando múltiples combinaciones hasta encontrar una. Se puede realizar probando todas las combinaciones posibles, con el uso de un diccionario de contraseñas o con una combinación de ambas.
 
 ## Metodologías de pentesting
-Hola
+
 
 ## Evaluación de herramientas de monitorización
+Bueno una vez analizada las metodologías que podemos encontrar en el campo del pentesting y haber elegido la nuestra propia basandonos en ellas continuaremos con las herramientas que utilizaremos. 
 
+En este apartado, evaluaremos y seleccionaremos herramientas de auditoría, las cuales nos ayudarán a ejecutar nuestras pruebas de pentesting en los sistemas, bases de datos, aplicaciones webs..., de las empresas que contacten con nosotros.
+
+Dentro de las diferentes herramientas que nos brinda el mercado podemos ver herramientas más enfocadas al ataque (las cuales simulan ataques cibernéticos para identificar vulnerabilidades en un sistemas) y de monitoreo (las cuales supervisan el comportamiento de la red o el sistema en busca de actividad sospechosa durante o ya después de un ataque). 
+
+Ahora pasamos a definir las herramientas más adecuadas para los tipos de ataques de los que se encarga nuestra empresa. 
+
+### Herramientas ataques de ingeniería social
+
+#### Gophish
+Esta aplicación es de código abierto y esta enfocada para ayudar a los profesionales de ciberseguridad y a las organizaciones a ejecutar campañas de pruebas de *pishing*.   
+Esto nos permite evaluar la concienzación que tienen los empleados de una empresa sobre este tipo de ataques.   
+Como punto a favor podemos ver que es multi-plataforma (Windows, Linux, macOS), gratuita, panel de control y métricas.
+
+#### Cofense PhishMe
+Es una plataforma comercial que está enfocada en la prevención y detección de atauqes de pishing mediante la capacitación de los empleados.
+Lo bueno que tiene esta herramienta es que puedes efectuar simulaciones de pishing a la empresa, estos ataques podrán ser monitoreados en tiempo real con métricas.   
+Si uno de los empleados cae en uno de los ataques se ofrecen módulos de capacitación para enseñar a estos a reconocer futuros ataques. Como único inconveniente es que la licencia es de pago. 
+
+#### SET (Social-Engineer Toolkit)
+Es una herramienta de código abierto muy utilizada en el ámbito de la ciberseguridad para las simulaciones de ingeniería social y evaluaciones de seguridad.   
+Lo que diferencia esta aplicación son las herramientas que nos proponen. A parte de las simulaciones de pishing por correos electrónicos, también nos da la opción de crear sitios webs falsos donde con los que se podría probar a los empleados con el robo de sus credenciales.   
+Como único inconveniente es que requiere de conocimientos previos debido a que su configuración es por consola de comandos. 
+<br>
+<br>
+<br>
+Una vez recabado información sobre estas aplicaciones vamos a compararlas siguiendo los siguientes parámetros. 
+
+| Nombre         | Gophish    | Cofense | SET     |
+|------------|------------------|-----------|--------|
+| Precio | Gratuito (código abierto) | Pago (subscripción anual) | Gratuito (código abierto) |
+| Plataforma | Windows, Linux, macOS | Basado en nube o local (Windows y Linux) | Linux (preferiblemente en Kali Linux) |
+| Funcionalidad | Simulación phishing (email) | Simulación pishing (email) + concienciación | Simulación de pishing (email) + webs falsas (robo de credenciales) |
+| Complejidad | Media (requiere un poco de conocimiento). Interfaz gráfica | Baja (intuitiva). Interfaz gráfica | Alta (requiere de bastantes conocimientos previos). Consola de comandos |
+| Escalabilidad | Alta. Ideal para empresas de cualquier tamaño. | Muy alta, ideal para grandes organizaciones | Alta.  Adaptable pero enfocada en pruebas de penetración específicas |
+|  |  |  |  |
+
+
+## Conclusiones
 
 ## Fuentes
+[Ciberseguridad: Tipos de ataque y en qué consisten](https://www.iebschool.com/blog/ciberseguridad-ataques-tecnologia/)
+
+[Ataques informáticos: Causas y 15 Tipos de Ciberataques](https://winempresas.pe/blog/ataques-informaticos-causas-y-12-tipos-de-ciberataques)
+
+[Top mejores aplicaciones para pruebas de pishing](https://geekflare.com/es/phishing-simulation-software/)
