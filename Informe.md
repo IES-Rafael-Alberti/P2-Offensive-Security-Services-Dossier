@@ -22,7 +22,6 @@
     - [Herramientas ataques de ingeniería social](#herramientas-ataques-de-ingeniería-social)
     - [Herramientas ataques de malware](#herramientas-ataques-de-malware)
     - [Herramientas ataques a sistemas y redes](#ataques-a-redes-y-sistemas)
-- [Inversión inicial](#inversión-inicial)
 - [Conclusiones](#conclusiones)
 - [Fuentes](#fuentes)
 
@@ -276,22 +275,11 @@ Esta tabla resume los conocimientos técnicos y la interfaz de cada herramienta 
 | SQLMap | Gratuita | Windows, Linux, macOS | Escaneo y explotación de inyecciones SQL| Media (Interfaz de consola). Conocimientos básicos en base de datos | Media. Excelente para sitios individuales, y posibilidad de escalabilidad reducida para sistemas con mas de una base de datos| 
 |BruteX| Gratuita| Linux | Ataques de fuerza bruta a servicios de red | Media (Interfaz de consola). Fácil de usar pero con previos conocimientos en redes| Media. Adecuada para redes pequeñas, con limitaciones para redes muy grandes|
 
-## Inversión inicial
-Ahora crearemos una tabla donde recogeremos la inversión inicial que tendremos que tener para iniciar. En el recuento contaremos los sueldos, herramientas, portátiles y otros posibles gastos. 
-Las herramientas en su mayoría son de código abierto por lo que no tendremos que pagar nada, aunque algunas tienen suscripciones.  
-Todo el recuento de las herramientas que hemos seleccionado está recogído en nuestro [dossier](Dossier_Auditorias_Ofensivas.md).
-
-| Recurso / herramienta | Precio/mes |
-|------|-----|
-| Sueldos de los 3 integrantes | 1400 € x 3 = 4200 € |
-| Metasploit | Rango entre 250-330 mensuales según la empresa| 
-| Cofense | 10 € mensuales | 
-| Portátiles HP Victus 15-fa0059ns (3 integrantes) | 700€ x 3 = 2100€|
-| Otros posibles gastos | 1000 €
-| Total | 7.640 € |
-
-Contamos con que esto sería gasto mensual y los ordenadores solo entrarían dentro de los gastos del primer mes. 
 ## Conclusiones
+En este informe hemos visto una visión general de los ciberataques, detallando las técnicas y herramientas utilizadas en las auditorías de seguridad. Nos hemos enfocado en analizar los ataques de ingeniería social, malware y redes y sistemas. Destacamos la importancia de comprender cada tipo de amenaza posible para fortalecer una gran seguridad.   
+Hemos analizado diversas metodologías y seleccionado herramientas específicas para cada tipo de auditoría. 
+
+Es importante una parte de la inversión de una empresa en la ciberseguridad, tanto en la capacitación del personal de la propia empresa, el uso de tecnologías de última generación o la contratación de auditores de pentesting los cuales se encargarán de buscar las posibles vulnerabilidades que haya en una empresa.
 
 ## Fuentes
 [Ciberseguridad: Tipos de ataque y en qué consisten](https://www.iebschool.com/blog/ciberseguridad-ataques-tecnologia/)
@@ -303,3 +291,5 @@ Contamos con que esto sería gasto mensual y los ordenadores solo entrarían den
 [10 herramientas de hacking ético](https://www.tokioschool.com/noticias/herramientas-hacking-etico/)
 
 [Ordenadores para la inversión](https://www.pccomponentes.com/hp-victus-15-fa0059ns-intel-core-i5-12450h-16gb-512gb-ssd-rtx-3050-156)
+
+[Dossier del grupo 3](Dossier_Auditorias_Ofensivas.md)
