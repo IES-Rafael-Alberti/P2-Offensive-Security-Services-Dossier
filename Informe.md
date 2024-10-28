@@ -28,7 +28,13 @@
 
 
 ## Introducción
+El trabajo se centra en la investigación y clasificación de ciberataques, teniendo en cuenta métodos, características y objetivos de los ataques mas comunes. Lo hemos clasificado en tres categorías principales:
+1. **Ataque de Ingeniería Social:** Estos ataques manipulan a las persoan para obtener información sensible. Incluyen técnicas como phising, speat phising, donde los ciberdelincuentes se hacen pasar por entidades confiables para engañar a las personas.
+2. **Ataques de Malware:** Estos ataques utilizan software malicioso para infiltrarse y dañar sistemas. Hay varios tipos como pueden ser gusanos, ransomware y spyware y cada uno actua de forma distinta.
+3. **Ataque de Redes y Sistemas:** Estos ataques aprovechan vulnerabilidades en la infraestructura tecnológica. Hay varios tipos como pueden ser DDoS, inyección SQL y ataques Man-in-the-Middle.
 
+Además también examinanos metodologías de pentesting y herramientas específicas para auditar la seguridad de los sistemas, con el objetivo de mejorar la defensa contra estas amenazas.
+Entender estos aspectos son fundamental para el desarrollo de estrategias efectivas de prevención y mitigación en el ámbito de la ciberseguridad.
 
 ## Clasificación de tipos de ataque
 Esta parte del informe se centrará en la investigación y clasificación de los ataques cibernéticos más comunes teniendo en cuenta los métodos, características y objetivos de cada uno.
