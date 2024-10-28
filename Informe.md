@@ -246,6 +246,10 @@ Esta tabla resume los conocimientos técnicos y la interfaz de cada herramienta 
 |BruteX| Gratuita| Linux | Ataques de fuerza bruta a servicios de red | Media (Interfaz de consola). Fácil de usar pero con previos conocimientos en redes| Media. Adecuada para redes pequeñas, con limitaciones para redes muy grandes|
 
 ## Conclusiones
+En este informe hemos visto una visión general de los ciberataques, detallando las técnicas y herramientas utilizadas en las auditorías de seguridad. Nos hemos enfocado en analizar los ataques de ingeniería social, malware y redes y sistemas. Destacamos la importancia de comprender cada tipo de amenaza posible para fortalecer una gran seguridad.   
+Hemos analizado diversas metodologías y seleccionado herramientas específicas para cada tipo de auditoría. 
+
+Es importante una parte de la inversión de una empresa en la ciberseguridad, tanto en la capacitación del personal de la propia empresa, el uso de tecnologías de última generación o la contratación de auditores de pentesting los cuales se encargarán de buscar las posibles vulnerabilidades que haya en una empresa.
 
 ## Fuentes
 [Ciberseguridad: Tipos de ataque y en qué consisten](https://www.iebschool.com/blog/ciberseguridad-ataques-tecnologia/)
