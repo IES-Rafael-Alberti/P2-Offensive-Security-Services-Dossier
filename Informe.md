@@ -16,6 +16,8 @@
 - [Metodologías de pentesting](#metodologías-de-pentesting)
 - [Evaluación de herramientas de monitorización](#evaluación-de-herramientas-de-monitorización)
     - [Herramientas ataques de ingeniería social](#herramientas-ataques-de-ingeniería-social)
+    - [Herramientas ataques de malware](#herramientas-ataques-de-malware)
+    - [Herramientas ataques a sistemas y redes](#ataques-a-redes-y-sistemas)
 - [Conclusiones](#conclusiones)
 - [Fuentes](#fuentes)
 
@@ -100,7 +102,53 @@ Una vez recabado información sobre estas aplicaciones vamos a compararlas sigui
 | Funcionalidad | Simulación phishing (email) | Simulación pishing (email) + concienciación | Simulación de pishing (email) + webs falsas (robo de credenciales) |
 | Complejidad | Media (requiere un poco de conocimiento). Interfaz gráfica | Baja (intuitiva). Interfaz gráfica | Alta (requiere de bastantes conocimientos previos). Consola de comandos |
 | Escalabilidad | Alta. Ideal para empresas de cualquier tamaño. | Muy alta, ideal para grandes organizaciones | Alta.  Adaptable pero enfocada en pruebas de penetración específicas |
-|  |  |  |  |
+
+
+### Herramientas ataques de malware
+
+#### ClamAV
+Esta es un antivirus de código abierto diseñado para detectar malware y otras amenazas. Se suele utilizar principalmente en servidores o sistemas Linux (aunque es multiplataforma) para analizar archivos en busca de gusanos, troyanos, virus y otros tipos de malware.   
+Esta desarollado por Cisco y se ejecuta a través de la terminal. 
+
+#### Cuckoo Sandbox
+Es una herramienta de código abierto para el análisis dinámico de malware en entornos controlados. Su objetivo es ejecutar archivos en entornos seguros (una máquina virtual), para poder observar el comportamiento en tiempo real y generando un detallado análisis de cualquier posible actividad maliciosa.
+Muy utilizado en ciberseguirdad para identificar y estudiar amenazas como pueden ser ransomware, troyanos y exploits. 
+Para su instalación hay que tener cocnocimientos previos debido a que es un poco compleja. 
+
+#### Volatility 
+Es una herrmaienta avanzada de análisis de memoria forense de código abierto que se utiliza en ciberseguirdad para la investigación de incidentes y amenazas. 
+Esta herramienta permite examinar el contenido de la RAM (la memoria volátil de un sistema), lo cuál es muy importante para el análisis forense y la detección de actividades maliciosas como podrían ser rootkits, spyware u otros malware residentes en memoria. 
+También hace falta conocimentos previos para sacarle todo su potencial y es debido a que si ejecución es a través de terminal. 
+
+#### Sysmon
+Es una herramienta de monitoreo de eventos del sistemas desarrollada por Microsoft. Está ayuda a los equipos de seguridad a monitorear y registrar la actividad detallada de procesos, redes, archivos y cambios en el sistema a tiempo real.  
+Se utiliza principalemtne para la detección y análisis de amenazas, proporcionando información valiosa sobre actividades de malware y comportamientos sospechosos. 
+
+| Nombre     | ClamAV    | Cuckoo Sandbox | Volatility | Sysmon |
+|------------|-----------|----------------|------------|--------|
+| Precio     | Gratuito  | Gratuito       | Gratuito   |Gratuito|
+| Plataforma | Multiplataforma (Windows, Linux, macOS)| Multiplataforma (principalmente Linux) | Multiplataforma (Windows, Linux, macOS) | Windows |
+| Funcionalidad | Escaneo antivirus y antimalware | Análisis dinámico de malware en máquina virtual | Análisis de memoria forense | Monitoreo y resgitro de eventos |
+| Complejidad | Media (Interfaz de consola, requiere configuración para entornos empresariales) | Alta (Requiere configuración técnica)| Alta (Requiere algo de experiencia en forense digital) | Media (necesita algunos conociemintos de logs)
+| Escalabilidad | Escalable, pero depende del rendimiento del sistema y la red | Escalables dependiendo de los recursos del hardware y vistualización | Muy escalable, adecuado para incidencias de cualquier escala | Muy escalable, ideal para entornos empresariales |
+
+Como podemos observar destaca que todas son gratuitas, algunas requieren de conocimientes para su instalación o uso (debido a que son en consola algunas). También su escalabilidad dependen algunas de la potencia de los medios tanto hardware como de red. 
+
+### Herramientas ataques a sistemas y redes
+
+#### Wireshark
+Es una herramienta de análisis de protocolos de red de código abierto. Está se utiliza frecuentemente en redes y ciberseguridad para capturar y analizar el tráfico en una red en tiempo real.  
+Wireshark nos permite analizar todos los paquetes que circulan en una red para identificar vulnerabilidades, problemas de rendimiento y actividades sospechosas.  
+Para utilizarla hay que tener conocimientos de redes para poder interpretar la información. 
+
+#### Nmap
+Es una herramienta de código abierto para el escaneo y mapeo de redes, ampliamente utilizada enm ciberseguridad para identificar servicios, puertos abiertos y dispositivos de una red.   
+Es de las herramientas para auditoría más utilizadas debiod a su flexibilidad, potencia y eficiencia. También hay que tener algun que otro tipo de conocimiento.
+
+#### Wanguard
+Es una solución avanzada de mitigación y monitoreo de ataques DDoS y tráfico no deseado. Esta aplicación está diseñada para proteger las redes empresariales y las infraestructuras de centros de datos contra amenazas basadas en el tráfico y ataques de denegación de servicio. 
+Wanguard destaca por su capacidad para identificar y detener el tráfico malicioso, preservando así la seguridad y estabilidad de la red.   
+Es una herramienta de pago y que requiere de conocimentos previos sobre redes. 
 
 
 ## Conclusiones
