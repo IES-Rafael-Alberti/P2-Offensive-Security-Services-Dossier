@@ -166,7 +166,7 @@ Las fases clave de un ciberataque típico son:
 - **Metodologías aplicables**: OSSTMM, ISSAF, Ethical Hacking, PTES
 
 ## Evaluación de herramientas de monitorización
-Bueno una vez analizada las metodologías que podemos encontrar en el campo del pentesting y haber elegido la nuestra propia basandonos en ellas continuaremos con las herramientas que utilizaremos. 
+Bueno una vez analizada las metodologías que podemos encontrar en el campo del pentesting y haber elegido la nuestra propia basándonos en ellas continuaremos con las herramientas que utilizaremos. 
 
 En este apartado, evaluaremos y seleccionaremos herramientas de auditoría, las cuales nos ayudarán a ejecutar nuestras pruebas de pentesting en los sistemas, bases de datos, aplicaciones webs..., de las empresas que contacten con nosotros.
 
@@ -177,13 +177,13 @@ Ahora pasamos a definir las herramientas más adecuadas para los tipos de ataque
 ### Herramientas ataques de ingeniería social
 
 #### Gophish
-Esta aplicación es de código abierto y esta enfocada para ayudar a los profesionales de ciberseguridad y a las organizaciones a ejecutar campañas de pruebas de *pishing*.   
-Esto nos permite evaluar la concienzación que tienen los empleados de una empresa sobre este tipo de ataques.   
-Como punto a favor podemos ver que es multi-plataforma (Windows, Linux, macOS), gratuita, panel de control y métricas.
+Esta aplicación es de código abierto y está enfocada para ayudar a los profesionales de ciberseguridad y a las organizaciones a ejecutar campañas de pruebas de *phishing*.   
+Esto nos permite evaluar la concienciación que tienen los empleados de una empresa sobre este tipo de ataques.   
+Como punto a favor podemos ver que es multiplataforma (Windows, Linux, macOS), gratuita, panel de control y métricas.
 
 #### Cofense PhishMe
-Es una plataforma comercial que está enfocada en la prevención y detección de atauqes de pishing mediante la capacitación de los empleados.
-Lo bueno que tiene esta herramienta es que puedes efectuar simulaciones de pishing a la empresa, estos ataques podrán ser monitoreados en tiempo real con métricas.   
+Es una plataforma comercial que está enfocada en la prevención y detección de ataques de phishing mediante la capacitación de los empleados.
+Lo bueno que tiene esta herramienta es que puedes efectuar simulaciones de phishing a la empresa, estos ataques podrán ser monitoreados en tiempo real con métricas.   
 Si uno de los empleados cae en uno de los ataques se ofrecen módulos de capacitación para enseñar a estos a reconocer futuros ataques. Como único inconveniente es que la licencia es de pago. 
 
 #### SET (Social-Engineer Toolkit)
@@ -193,13 +193,13 @@ Como único inconveniente es que requiere de conocimientos previos debido a que 
 <br>
 <br>
 <br>
-Una vez recabado información sobre estas aplicaciones vamos a compararlas siguiendo los siguientes parámetros. 
+Una vez recabada la información sobre estas aplicaciones vamos a compararlas siguiendo los siguientes parámetros. 
 
 | Nombre         | Gophish    | Cofense | SET     |
 |------------|------------------|-----------|--------|
 | Precio | Gratuito (código abierto) | Pago (subscripción anual) | Gratuito (código abierto) |
 | Plataforma | Windows, Linux, macOS | Basado en nube o local (Windows y Linux) | Linux (preferiblemente en Kali Linux) |
-| Funcionalidad | Simulación phishing (email) | Simulación pishing (email) + concienciación | Simulación de pishing (email) + webs falsas (robo de credenciales) |
+| Funcionalidad | Simulación phishing (email) | Simulación phishing (email) + concienciación | Simulación de phishing (email) + webs falsas (robo de credenciales) |
 | Complejidad | Media (requiere un poco de conocimiento). Interfaz gráfica | Baja (intuitiva). Interfaz gráfica | Alta (requiere de bastantes conocimientos previos). Consola de comandos |
 | Escalabilidad | Alta. Ideal para empresas de cualquier tamaño. | Muy alta, ideal para grandes organizaciones | Alta.  Adaptable pero enfocada en pruebas de penetración específicas |
 
@@ -207,32 +207,32 @@ Una vez recabado información sobre estas aplicaciones vamos a compararlas sigui
 ### Herramientas ataques de malware
 
 #### ClamAV
-Esta es un antivirus de código abierto diseñado para detectar malware y otras amenazas. Se suele utilizar principalmente en servidores o sistemas Linux (aunque es multiplataforma) para analizar archivos en busca de gusanos, troyanos, virus y otros tipos de malware.   
-Esta desarollado por Cisco y se ejecuta a través de la terminal. 
+Está es un antivirus de código abierto diseñado para detectar malware y otras amenazas. Se suele utilizar principalmente en servidores o sistemas Linux (aunque es multiplataforma) para analizar archivos en busca de gusanos, troyanos, virus y otros tipos de malware.   
+Está desarrollado por Cisco y se ejecuta a través de la terminal. 
 
 #### Cuckoo Sandbox
 Es una herramienta de código abierto para el análisis dinámico de malware en entornos controlados. Su objetivo es ejecutar archivos en entornos seguros (una máquina virtual), para poder observar el comportamiento en tiempo real y generando un detallado análisis de cualquier posible actividad maliciosa.
-Muy utilizado en ciberseguirdad para identificar y estudiar amenazas como pueden ser ransomware, troyanos y exploits. 
-Para su instalación hay que tener cocnocimientos previos debido a que es un poco compleja. 
+Muy utilizado en ciberseguridad para identificar y estudiar amenazas como pueden ser ransomware, troyanos y exploits. 
+Para su instalación hay que tener conocimientos previos debido a que es un poco compleja. 
 
 #### Volatility 
-Es una herrmaienta avanzada de análisis de memoria forense de código abierto que se utiliza en ciberseguirdad para la investigación de incidentes y amenazas. 
+Es una herramienta avanzada de análisis de memoria forense de código abierto que se utiliza en ciberseguridad para la investigación de incidentes y amenazas. 
 Esta herramienta permite examinar el contenido de la RAM (la memoria volátil de un sistema), lo cuál es muy importante para el análisis forense y la detección de actividades maliciosas como podrían ser rootkits, spyware u otros malware residentes en memoria. 
-También hace falta conocimentos previos para sacarle todo su potencial y es debido a que si ejecución es a través de terminal. 
+También hace falta conocimientos previos para sacarle todo su potencial y es debido a que si ejecución es a través de terminal. 
 
 #### Sysmon
-Es una herramienta de monitoreo de eventos del sistemas desarrollada por Microsoft. Está ayuda a los equipos de seguridad a monitorear y registrar la actividad detallada de procesos, redes, archivos y cambios en el sistema a tiempo real.  
-Se utiliza principalemtne para la detección y análisis de amenazas, proporcionando información valiosa sobre actividades de malware y comportamientos sospechosos. 
+Es una herramienta de monitoreo de eventos del sistemas desarrollada por Microsoft. Esto ayuda a los equipos de seguridad a monitorear y registrar la actividad detallada de procesos, redes, archivos y cambios en el sistema a tiempo real.  
+Se utiliza principalmente para la detección y análisis de amenazas, proporcionando información valiosa sobre actividades de malware y comportamientos sospechosos. 
 
 | Nombre     | ClamAV    | Cuckoo Sandbox | Volatility | Sysmon |
 |------------|-----------|----------------|------------|--------|
 | Precio     | Gratuito  | Gratuito       | Gratuito   |Gratuito|
 | Plataforma | Multiplataforma (Windows, Linux, macOS)| Multiplataforma (principalmente Linux) | Multiplataforma (Windows, Linux, macOS) | Windows |
-| Funcionalidad | Escaneo antivirus y antimalware | Análisis dinámico de malware en máquina virtual | Análisis de memoria forense | Monitoreo y resgitro de eventos |
-| Complejidad | Media (Interfaz de consola, requiere configuración para entornos empresariales) | Alta (Requiere configuración técnica)| Alta (Requiere algo de experiencia en forense digital) | Media (necesita algunos conociemintos de logs)
-| Escalabilidad | Escalable, pero depende del rendimiento del sistema y la red | Escalables dependiendo de los recursos del hardware y vistualización | Muy escalable, adecuado para incidencias de cualquier escala | Muy escalable, ideal para entornos empresariales |
+| Funcionalidad | Escaneo antivirus y antimalware | Análisis dinámico de malware en máquina virtual | Análisis de memoria forense | Monitoreo y registro de eventos |
+| Complejidad | Media (Interfaz de consola, requiere configuración para entornos empresariales) | Alta (Requiere configuración técnica)| Alta (Requiere algo de experiencia en forense digital) | Media (necesita algunos conocimientos de logs)
+| Escalabilidad | Escalable, pero depende del rendimiento del sistema y la red | Escalables dependiendo de los recursos del hardware y virtualización | Muy escalable, adecuado para incidencias de cualquier escala | Muy escalable, ideal para entornos empresariales |
 
-Como podemos observar destaca que todas son gratuitas, algunas requieren de conocimientes para su instalación o uso (debido a que son en consola algunas). También su escalabilidad dependen algunas de la potencia de los medios tanto hardware como de red. 
+Como podemos observar destaca que todas son gratuitas, algunas requieren de conocimientos para su instalación o uso (debido a que son en consola algunas). También su escalabilidad dependen algunas de la potencia de los medios tanto hardware como de red. 
 
 ### Herramientas ataques a sistemas y redes
 
@@ -242,26 +242,26 @@ Wireshark nos permite analizar todos los paquetes que circulan en una red para i
 Para utilizarla hay que tener conocimientos de redes para poder interpretar la información. 
 
 #### Nmap
-Es una herramienta de código abierto para el escaneo y mapeo de redes, ampliamente utilizada enm ciberseguridad para identificar servicios, puertos abiertos y dispositivos de una red.   
-Es de las herramientas para auditoría más utilizadas debiod a su flexibilidad, potencia y eficiencia. También hay que tener algun que otro tipo de conocimiento.
+Es una herramienta de código abierto para el escaneo y mapeo de redes, ampliamente utilizada en ciberseguridad para identificar servicios, puertos abiertos y dispositivos de una red.   
+Es de las herramientas para auditoría más utilizadas debio a su flexibilidad, potencia y eficiencia. También hay que tener algún que otro tipo de conocimiento.
 
 #### Wanguard
 Es una solución avanzada de mitigación y monitoreo de ataques DDoS y tráfico no deseado. Esta aplicación está diseñada para proteger las redes empresariales y las infraestructuras de centros de datos contra amenazas basadas en el tráfico y ataques de denegación de servicio. 
 Wanguard destaca por su capacidad para identificar y detener el tráfico malicioso, preservando así la seguridad y estabilidad de la red.   
-Es una herramienta de pago y que requiere de conocimentos previos sobre redes. 
+Es una herramienta de pago y que requiere de conocimientos previos sobre redes. 
 
 #### Metasploit
-Es una plataforma de código abierto la cual se diseño para facilitar pruebas de penetración y explotación de vulnerabilidades en las redes, servicios y aplicaciones de un sistema.     
-Esta permite simular ataques reales para poder indentificar y solucionar debilidades en la seguridad de un sistema antes de que puedan ser explotados por los atacantes.  
-Esta aplciación es altamente utilizada en cibersguirdad debido a su ambplia biblioteca de exploits, su personalización y que es multiplataforma. Pero como inconveniente es que se utiliza a través de la línea de comandos y la personalización de los atauqes se crean en scripts. 
+Es una plataforma de código abierto la cual se diseñó para facilitar pruebas de penetración y explotación de vulnerabilidades en las redes, servicios y aplicaciones de un sistema.     
+Esta permite simular ataques reales para poder identificar y solucionar debilidades en la seguridad de un sistema antes de que puedan ser explotados por los atacantes.  
+Esta aplicación es altamente utilizada en ciberseguridad debido a su amplia biblioteca de exploits, su personalización y que es multiplataforma. Pero como inconveniente es que se utiliza a través de la línea de comandos y la personalización de los ataques se crean en scripts. 
 
 #### SQLMap
-Es una herramienta de código abierto que permite detectar y explotar vuknerabilidades de inyección SQL en aplicaciones web. Podremos automatizar procesos de prueba para identificar si una base de datos de datos puede tener vulnerabilidades contra este tipo de ataques de inyección SQL.   
-Es muy utilizada para realizar pruebas de pentración en bases de datos y detectar posibles vulnerabilidades contra estos ataques que son de los más comunes y dañinos. 
+Es una herramienta de código abierto que permite detectar y explotar vulnerabilidades de inyección SQL en aplicaciones web. Podremos automatizar procesos de prueba para identificar si una base de datos de datos puede tener vulnerabilidades contra este tipo de ataques de inyección SQL.   
+Es muy utilizada para realizar pruebas de penetración en bases de datos y detectar posibles vulnerabilidades contra estos ataques que son de los más comunes y dañinos. 
 
 #### BruteX
-Es una herramienta automatizada de fuerza bruta. Esta diseñada para relaizar múltiples ataques a servicios comunmente usados como pueden ser SSH, servicios web, FTP... Automatiza procesos de búsqueda y prueba de credenciales en redes.   
-Es utilizada en el ámbito de la ciberseguridad para realizar ataques de prueba de manera efiiente y rápida. 
+Es una herramienta automatizada de fuerza bruta. Está diseñada para realizar múltiples ataques a servicios comúnmente usados como pueden ser SSH, servicios web, FTP... Automatiza procesos de búsqueda y prueba de credenciales en redes.   
+Es utilizada en el ámbito de la ciberseguridad para realizar ataques de prueba de manera eficiente y rápida. 
 
 ****
 
@@ -269,17 +269,17 @@ Esta tabla resume los conocimientos técnicos y la interfaz de cada herramienta 
 
 | Herramienta  | Costo | Plataforma  | Funcionalidad | Complejidad | Escalabilidad|
 |----------|-------|---------|--------|-------|---|
-| Wireshark | Gratuita | Windows, Linux, macOS | Análisis de tráfico de red en tiempo real, captura y filtrado de paquetes | Media (Interfaz gráfica inuitiva). Requiere conocimeintos en redes para un buen análisis | Alta. Permite analizar grandes redes, aunque depende de los recursos locales|
-|Nmap| Gratuita | Windows, Linux, macOS | Escaneo y mapeo de redes, y detección de puertos o servicios abiertos | Media (Interfaz de consola). Neceita el uso de scripts para configuración y personalización | Alta. Adaptable para pequeñas o grandes redes|
+| Wireshark | Gratuita | Windows, Linux, macOS | Análisis de tráfico de red en tiempo real, captura y filtrado de paquetes | Media (Interfaz gráfica intuitiva). Requiere conocimientos en redes para un buen análisis | Alta. Permite analizar grandes redes, aunque depende de los recursos locales|
+|Nmap| Gratuita | Windows, Linux, macOS | Escaneo y mapeo de redes, y detección de puertos o servicios abiertos | Media (Interfaz de consola). Necesita el uso de scripts para configuración y personalización | Alta. Adaptable para pequeñas o grandes redes|
 | Wanguard | Pago | Linux | Detección y mitigación de ataques DDoS | Alta (Interfaz de consola). Configuraciones avanzadas | Muy alta. Ideal para grandes centros de datos con gran volumen de tráfico|
-| Metasploit | Gratuita y versión de pago | Windows, Linux, macOS| Pruebas de penetración y explotación de vulnerabilidades| Alta (Interfaz gráfica en version de pago). Requiere conocimientos en ciberseguridad| Alta. Ampliamente escalable en grandes redes | 
+| Metasploit | Gratuita y versión de pago | Windows, Linux, macOS| Pruebas de penetración y explotación de vulnerabilidades| Alta (Interfaz gráfica en versión de pago). Requiere conocimientos en ciberseguridad| Alta. Ampliamente escalable en grandes redes | 
 | SQLMap | Gratuita | Windows, Linux, macOS | Escaneo y explotación de inyecciones SQL| Media (Interfaz de consola). Conocimientos básicos en base de datos | Media. Excelente para sitios individuales, y posibilidad de escalabilidad reducida para sistemas con mas de una base de datos| 
-|BruteX| Gratuita| Linux | Ataques de fuerza bruta a servicios de red | Media (Interfaz de consola). Fácil de usar pero con previos conociemientos en redes| Media. Adecuada para redes pequeñas, con limitaciones para redes muy grandes|
+|BruteX| Gratuita| Linux | Ataques de fuerza bruta a servicios de red | Media (Interfaz de consola). Fácil de usar pero con previos conocimientos en redes| Media. Adecuada para redes pequeñas, con limitaciones para redes muy grandes|
 
 ## Inversión inicial
 Ahora crearemos una tabla donde recogeremos la inversión inicial que tendremos que tener para iniciar. En el recuento contaremos los sueldos, herramientas, portátiles y otros posibles gastos. 
-Las herramientas en su mayoría son de código abierto por lo que no tendremos que pagar nada, aunque algunas tienen subscripciones.  
-Todo el recunto de las herramientas que hemos seleccionado está recogído en nuestro [dossier](Dossier_Auditorias_Ofensivas.md).
+Las herramientas en su mayoría son de código abierto por lo que no tendremos que pagar nada, aunque algunas tienen suscripciones.  
+Todo el recuento de las herramientas que hemos seleccionado está recogído en nuestro [dossier](Dossier_Auditorias_Ofensivas.md).
 
 | Recurso / herramienta | Precio/mes |
 |------|-----|
