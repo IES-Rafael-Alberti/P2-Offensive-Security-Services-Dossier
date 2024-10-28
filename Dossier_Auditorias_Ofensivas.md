@@ -5,6 +5,24 @@
 - Alejandro Seoane
 - Israel Valderrama
 
+## Índice
++ [Introducción](#introducción)
++ [Propuesta de auditorías ofensivas](#propuesta-de-auditorías-ofensivas)
+    + [Auditoria de seguridad de aplicaciones](#auditoria-de-seguridad-de-aplicaciones)
+    + [Auditoria de seguridad de redes](#auditoria-de-seguridad-de-redes)
+    + [Auditoria de gestión de incidentes](#auditoria-de-gestión-de-incidentes)
+    + [Auditoria de políticas y procedimientos](#auditoria-de-políticas-y-procedimientos)
++ [Propuesta de metodología de auditoría](#propuesta-de-metodología-de-auditoría)
+    + [Auditoría de ingeniería social](#auditoría-de-ingeniería-social)
+    + [Auditoría de malware](#auditoría-de-malware)
+    + [Auditoría de seguridad de redes y sistemas](#auditoría-de-seguridad-de-redes-y-sistemas)
+    + [Auditoría integral de ciberseguridad](#auditoría-integral-de-ciberseguridad)
++ [Propuesta de herramientas de monitorización](#propuesta-de-herramientas-de-monitorización)
+    + [Herramientas de ingeniería inversa](#herramientas-de-ingeniería-inversa)
+    + [Herramientas de malware](#herramientas-de-malware)
+    + [Herramientas para redes y sistemas](#herramientas-para-redes-y-sistemas)
++ [Inversión inicial](#inversión-inicial)
+
 ## Introducción
 En este dossier incluiremos descripciones detalladsa de los servicios que ofrecemos, la metodología seleccionada y las herramientas necesarias para realizar cada auditoría.
 
