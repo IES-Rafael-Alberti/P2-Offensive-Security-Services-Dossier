@@ -1,6 +1,8 @@
 # Dossier de auditorías ofensivas
 ## Introducción
+En este dossier incluiremos descripciones detalladsa de los servicios que ofrecemos, la metodología seleccionada y las herramientas necesarias para realizar cada auditoría.
 
+Por último, proporcionaremos una estimación de los costos asociados a la implementación de las herramientas. 
 
 ## Propuesta de auditorías ofensivas
 A continuación introduciremos los distintos tipos de auditoría que ofrecemos, indicando los servicios de cada una, su alcance y los resultados que el cliente puede esperar.
@@ -77,3 +79,62 @@ Todas las políticas internas relacionadas con la ciberseguridad.
 
 
 ## Propuesta de herramientas de monitorización
+En este apartado recabaremos las herramientas que hemos seleccionado para nuestro catálogo de auditorías de pentesting. Las hemos dividido las herramientas por auditoría
+
+### Herramientas de ingeniería inversa
+Hemos seleccionado: 
+
++ Cofense PhisMe  
+    - Justificación: Es una plataforma ideal para realizar campañas de phishing y concienciar a los empleados sobre este tipo de ataques
+    - Coste: 500 € anuales
+    - Ventajas: monitoreo en tiempo real, módulos de capacitación para los empleados e informes detallados sobre las campañas. 
+
++ SET (Social-Engineer Toolkit)
+    - Justificación: ideal para simulaciones de ingeniería social como pueden ser campañas de phishing o clonaciones de sitios webs para la captura de credenciales.
+    - Coste: gratuito (código abierto)
+    - Ventajas: gratis, gran variedad de ataques y porta avanzadas herramientas para hacer las pruebas.
+
+### Herramientas de malware
+Para este apartado hemos seleccionado: 
+
++ Cuckoo Sandbox
+    - Justificación: podemos hacer análisis dinámicos de malware en entornos seguros sin peligro alguno de infección.
+    - Coste: gratuito (código abierto)
+    - Ventajas: gratis, personalizable, perfecto para análisis profundos de malware
+
+### Herramientas para redes y sistemas
+
++ Wireshark
+    - Justificación: esta herramienta es esencial para el análisis del tráfico de red y detección de vulnerabilidades
+    - Coste: gratuito (código abierto)
+    - Ventajas: gratis, interfaz intuitiva y muy utilizado en la industria de ciberseguridad (mucha documentación)
+
++ Nmap
+    - Justificación: casi obligatoria para el escaneo y mapeo de redes.
+    - Coste: gratuito (código abierto)
+    - Ventajas: gratis, muy versátil y personalizable, y bastante potente
+
++ Metasploit
+    - Justificación: plataforma con gran variedad de pruebas de penetración a sistemas
+    - Coste: 
+        - Versión Community: Gratis
+        - Versión Pro: 4000 € anuales (depende del tamaño de la empresa)
+    - Ventajas: tiene una amplia biblioteca de exploits, con actualizaciones regulares y posibilidad de opción gratuita
+
+## Inversión inicial
+Ahora crearemos una tabla donde recogeremos la inversión inicial que tendremos que tener para iniciar. En el recuento contaremos los sueldos, herramientas, portátiles y otros posibles gastos. 
+Las herramientas en su mayoría son de código abierto por lo que no tendremos que pagar nada, aunque algunas tienen suscripciones.  
+
+| Recurso / herramienta | Precio/mes |
+|------|-----|
+| Sueldos de los 3 integrantes | 1400 € x 3 = 4200 € |
+| Metasploit | Rango entre 250-330 mensuales según la empresa| 
+| Cofense | 10 € mensuales | 
+| Portátiles HP Victus 15-fa0059ns (3 integrantes) | 700€ x 3 = 2100€|
+| Otros posibles gastos | 1000 €
+| Total | 7.640 € |
+
+Contamos con que esto sería gasto mensual y los ordenadores solo entrarían dentro de los gastos del primer mes.
+
+
+
