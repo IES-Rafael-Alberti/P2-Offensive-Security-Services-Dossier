@@ -71,6 +71,80 @@ Todas las políticas internas relacionadas con la ciberseguridad.
 + Mejora en la efectividad de las políticas internas.
 
 ## Propuesta de metodología de auditoría
+A continuación introduciremos los distintos tipos de auditoría que ofrecemos, indicando los servicios de cada una, su alcance y los resultados que el cliente puede esperar.
+
+### Auditoría de ingeniería social
+Esta auditoría tiene como objetivo evaluar la resistencia de la organización frente a ataques de ingeniería social, identificando vulnerabilidades en el factor humano que podrían ser explotadas por atacantes.
+
+**Servicios ofrecidos**
++ Simulaciones de phishing, spear phishing y whaling
++ Pruebas de pretexting y baiting
++ Evaluación de la concienciación de seguridad de los empleados
++ Análisis de la exposición de información sensible en redes sociales y fuentes públicas
+
+**Alcance**
+Se realizará sobre una muestra representativa de empleados de todos los niveles de la organización, con énfasis en aquellos con acceso a información crítica o sistemas sensibles.
+
+**Resultados esperados**
++ Informe detallado de las vulnerabilidades encontradas en las prácticas de los empleados
++ Estadísticas de efectividad de los ataques simulados
++ Recomendaciones para mejorar la resistencia a ataques de ingeniería social
++ Plan de formación y concienciación personalizado basado en los hallazgos
+
+### Auditoría de malware
+La auditoría de malware se centra en evaluar la capacidad de la organización para prevenir, detectar y responder a diferentes tipos de software malicioso.
+
+**Servicios ofrecidos**
++ Pruebas de penetración con malware simulado (virus, gusanos, troyanos)
++ Evaluación de la efectividad de las soluciones antimalware existentes
++ Análisis de la resistencia frente a ransomware, spyware y adware
++ Revisión de políticas y procedimientos de prevención y respuesta a malware
+
+**Alcance**
+Se realizará sobre los sistemas críticos de la organización, incluyendo servidores, estaciones de trabajo y dispositivos móviles corporativos.
+
+**Resultados esperados**
++ Informe detallado de las vulnerabilidades encontradas frente a diferentes tipos de malware
++ Evaluación de la efectividad de las defensas actuales contra malware
++ Recomendaciones para mejorar la detección y prevención de malware
++ Plan de acción para fortalecer la resistencia de la organización contra ataques de malware
+
+### Auditoría de seguridad de redes y sistemas
+Esta auditoría se enfoca en evaluar la seguridad de la infraestructura de red y sistemas de la organización, identificando vulnerabilidades que podrían ser explotadas por atacantes.
+
+**Servicios ofrecidos**
++ Pruebas de penetración en redes internas y externas
++ Evaluación de vulnerabilidades a ataques DDoS
++ Pruebas de Man-in-the-Middle (MitM)
++ Análisis de seguridad en aplicaciones web (incluyendo inyecciones SQL y Cross-Site Scripting)
++ Evaluación de la robustez de contraseñas y políticas de acceso
+
+**Alcance**
+Se realizará sobre toda la infraestructura de red de la organización, incluyendo servidores, firewalls, routers, switches, y aplicaciones web críticas.
+
+**Resultados esperados**
++ Informe detallado de las vulnerabilidades encontradas en redes y sistemas
++ Mapa de la red con puntos críticos identificados
++ Recomendaciones para mitigar las vulnerabilidades descubiertas
++ Plan de acción priorizado para mejorar la seguridad de la infraestructura
+
+### Auditoría integral de ciberseguridad
+Esta auditoría combina elementos de las auditorías anteriores para proporcionar una evaluación completa de la postura de seguridad de la organización.
+
+**Servicios ofrecidos**
++ Todos los servicios mencionados en las auditorías anteriores
++ Evaluación holística de la seguridad, abarcando factores técnicos y humanos
++ Análisis de la madurez en ciberseguridad de la organización
++ Simulación de escenarios de ataque complejos que combinan múltiples vectores
+
+**Alcance**
+Abarca todos los aspectos de la seguridad de la organización, incluyendo personal, procesos y tecnología.
+
+**Resultados esperados**
++ Informe exhaustivo del estado de seguridad de la organización
++ Identificación de vulnerabilidades críticas en todos los niveles
++ Plan estratégico de mejora de la seguridad a corto, medio y largo plazo
++ Recomendaciones para establecer un programa de seguridad continuo y efectivo
 
 
 ## Propuesta de herramientas de monitorización
