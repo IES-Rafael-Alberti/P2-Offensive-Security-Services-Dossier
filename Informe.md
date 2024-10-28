@@ -159,6 +159,22 @@ Esta aplciación es altamente utilizada en cibersguirdad debido a su ambplia bib
 Es una herramienta de código abierto que permite detectar y explotar vuknerabilidades de inyección SQL en aplicaciones web. Podremos automatizar procesos de prueba para identificar si una base de datos de datos puede tener vulnerabilidades contra este tipo de ataques de inyección SQL.   
 Es muy utilizada para realizar pruebas de pentración en bases de datos y detectar posibles vulnerabilidades contra estos ataques que son de los más comunes y dañinos. 
 
+#### BruteX
+Es una herramienta automatizada de fuerza bruta. Esta diseñada para relaizar múltiples ataques a servicios comunmente usados como pueden ser SSH, servicios web, FTP... Automatiza procesos de búsqueda y prueba de credenciales en redes.   
+Es utilizada en el ámbito de la ciberseguridad para realizar ataques de prueba de manera efiiente y rápida. 
+
+****
+
+Esta tabla resume los conocimientos técnicos y la interfaz de cada herramienta para su uso en pruebas de seguridad en diferentes niveles de complejidad.
+
+| Herramienta  | Costo | Plataforma  | Funcionalidad | Complejidad | Escalabilidad|
+|----------|-------|---------|--------|-------|---|
+| Wireshark | Gratuita | Windows, Linux, macOS | Análisis de tráfico de red en tiempo real, captura y filtrado de paquetes | Media (Interfaz gráfica inuitiva). Requiere conocimeintos en redes para un buen análisis | Alta. Permite analizar grandes redes, aunque depende de los recursos locales|
+|Nmap| Gratuita | Windows, Linux, macOS | Escaneo y mapeo de redes, y detección de puertos o servicios abiertos | Media (Interfaz de consola). Neceita el uso de scripts para configuración y personalización | Alta. Adaptable para pequeñas o grandes redes|
+| Wanguard | Pago | Linux | Detección y mitigación de ataques DDoS | Alta (Interfaz de consola). Configuraciones avanzadas | Muy alta. Ideal para grandes centros de datos con gran volumen de tráfico|
+| Metasploit | Gratuita y versión de pago | Windows, Linux, macOS| Pruebas de penetración y explotación de vulnerabilidades| Alta (Interfaz gráfica en version de pago). Requiere conocimientos en ciberseguridad| Alta. Ampliamente escalable en grandes redes | 
+| SQLMap | Gratuita | Windows, Linux, macOS | Escaneo y explotación de inyecciones SQL| Media (Interfaz de consola). Conocimientos básicos en base de datos | Media. Excelente para sitios individuales, y posibilidad de escalabilidad reducida para sistemas con mas de una base de datos| 
+|BruteX| Gratuita| Linux | Ataques de fuerza bruta a servicios de red | Media (Interfaz de consola). Fácil de usar pero con previos conociemientos en redes| Media. Adecuada para redes pequeñas, con limitaciones para redes muy grandes|
 
 ## Conclusiones
 
@@ -168,3 +184,5 @@ Es muy utilizada para realizar pruebas de pentración en bases de datos y detect
 [Ataques informáticos: Causas y 15 Tipos de Ciberataques](https://winempresas.pe/blog/ataques-informaticos-causas-y-12-tipos-de-ciberataques)
 
 [Top mejores aplicaciones para pruebas de pishing](https://geekflare.com/es/phishing-simulation-software/)
+
+[10 herramientas de hacking ético](https://www.tokioschool.com/noticias/herramientas-hacking-etico/)
