@@ -150,6 +150,15 @@ Es una solución avanzada de mitigación y monitoreo de ataques DDoS y tráfico 
 Wanguard destaca por su capacidad para identificar y detener el tráfico malicioso, preservando así la seguridad y estabilidad de la red.   
 Es una herramienta de pago y que requiere de conocimentos previos sobre redes. 
 
+#### Metasploit
+Es una plataforma de código abierto la cual se diseño para facilitar pruebas de penetración y explotación de vulnerabilidades en las redes, servicios y aplicaciones de un sistema.     
+Esta permite simular ataques reales para poder indentificar y solucionar debilidades en la seguridad de un sistema antes de que puedan ser explotados por los atacantes.  
+Esta aplciación es altamente utilizada en cibersguirdad debido a su ambplia biblioteca de exploits, su personalización y que es multiplataforma. Pero como inconveniente es que se utiliza a través de la línea de comandos y la personalización de los atauqes se crean en scripts. 
+
+#### SQLMap
+Es una herramienta de código abierto que permite detectar y explotar vuknerabilidades de inyección SQL en aplicaciones web. Podremos automatizar procesos de prueba para identificar si una base de datos de datos puede tener vulnerabilidades contra este tipo de ataques de inyección SQL.   
+Es muy utilizada para realizar pruebas de pentración en bases de datos y detectar posibles vulnerabilidades contra estos ataques que son de los más comunes y dañinos. 
+
 
 ## Conclusiones
 
