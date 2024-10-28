@@ -40,7 +40,96 @@ Son ataques que aprovechan vulnerabilidades en la infraestructura de redes y sis
 + **Ataques de fuerza bruta:** Consiste en intentar obtener acceso a un dispositivo de una red o a información protegida por una contraseña a base de intentar descifrar dichas contraseñas probando múltiples combinaciones hasta encontrar una. Se puede realizar probando todas las combinaciones posibles, con el uso de un diccionario de contraseñas o con una combinación de ambas.
 
 ## Metodologías de pentesting
+| Metodología                               | Enfoque Principal                             | Aplicable a Ingeniería Social | Aplicable a Malware | Aplicable a Redes y Sistemas |
+|-------------------------------------------|-----------------------------------------------|-------------------------------|---------------------|-------------------------------|
+| OWASP Testing Guide                       | Aplicaciones web                              | Parcialmente                  | Sí                  | Sí                            |
+| OSSTMM                                    | Sistemas y redes                             | Sí                            | Sí                  | Sí                            |
+| ISSAF                                     | Riesgos en sistemas y redes                  | Sí                            | Sí                  | Sí                            |
+| NIST Cybersecurity Framework              | Identificación y mitigación de riesgos       | Sí                            | Sí                  | Sí                            |
+| OSINT                                     | Información pública                           | Sí                            | Parcialmente        | Parcialmente                  |
+| Ethical Hacking                           | Simulación de ataques                         | Sí                            | Sí                  | Sí                            |
+| VAPT                                      | Evaluación de vulnerabilidades y pruebas de penetración | Parcialmente          | Sí                  | Sí                            |
+| PTES                                      | Planificación y ejecución de pruebas         | Sí                            | Sí                  | Sí                            |
+| STIG                                      | Mejora de la seguridad en sistemas           | No                            | Sí                  | Sí                            |
+| TIC                                       | Recopilación de información técnica          | Parcialmente                  | Sí                  | Sí                            |
 
+### Selección de Metodologías
+
+Considerando los servicios específicos mencionados (ingeniería social, malware, y ataques a redes y sistemas), las metodologías más adecuadas son:
+
+- #### OSSTMM (Open Source Security Testing Methodology Manual):
+    El OSSTMM es una metodología integral que abarca todos los aspectos de la seguridad de sistemas y redes. Su enfoque holístico permite evaluar tanto la seguridad técnica como la humana, lo que la hace ideal para abordar ataques de ingeniería social, malware y vulnerabilidades en redes y sistemas.
+
+- #### ISSAF (Information Systems Security Assessment Framework):
+    El ISSAF proporciona un marco detallado para la evaluación de riesgos en sistemas de información. Su estructura en fases (planificación, evaluación, tratamiento, acreditación y mantenimiento) permite una evaluación completa de la seguridad, cubriendo desde la ingeniería social hasta las vulnerabilidades técnicas.
+
+- #### Ethical Hacking:
+    Esta metodología se centra en simular ataques reales, lo que la hace particularmente efectiva para identificar vulnerabilidades en todos los niveles. Su enfoque práctico permite descubrir fallos de seguridad que podrían pasar desapercibidos con métodos más teóricos, siendo especialmente útil para evaluar la resistencia a ataques de ingeniería social y malware.
+
+- #### PTES (Penetration Testing Execution Standard):
+    El PTES ofrece un enfoque estandarizado para las pruebas de penetración, cubriendo todas las fases desde la recopilación de información hasta la post-explotación. Su estructura detallada permite una evaluación exhaustiva de la seguridad, siendo particularmente útil para auditar redes y sistemas, así como para evaluar la efectividad de las defensas contra malware.
+
+### Fases Clave de un Ataque y Relación con Tipos de Auditorías
+
+Las fases clave de un ciberataque típico son:
+
+- #### Reconocimiento
+
+    - **Descripción**: En esta fase, el atacante recopila información sobre el objetivo. Esto puede incluir búsquedas en internet, ingeniería social, y escaneo de redes.
+
+    - **Relación con auditorías**: Crucial para la auditoría de ingeniería social y la evaluación de la exposición de información pública.
+
+- #### Weaponización y entrega
+
+    - **Descripción**: El atacante prepara las herramientas para el ataque (como malware) y las entrega al objetivo, a menudo a través de phishing o explotando vulnerabilidades conocidas.
+
+    - **Relación con auditorías**: Fundamental para las auditorías de malware y la evaluación de la resistencia a ataques de ingeniería social.
+
+- #### Explotación
+
+    - **Descripción**: En esta fase, el atacante aprovecha las vulnerabilidades identificadas para ganar acceso inicial al sistema objetivo.
+
+    - **Relación con auditorías**: Crítica para las auditorías de redes y sistemas, especialmente en la evaluación de vulnerabilidades y pruebas de penetración.
+
+- #### Instalación
+
+    - **Descripción**: El atacante instala herramientas adicionales o malware para mantener el acceso y facilitar futuras actividades maliciosas.
+
+    - **Relación con auditorías**: Esencial para las auditorías de malware y la evaluación de la seguridad de los sistemas.
+
+- #### Comando y control
+
+    - **Descripción**: Se establece una comunicación bidireccional entre el sistema comprometido y la infraestructura del atacante.
+
+    - **Relación con auditorías**: Importante para las auditorías de redes, especialmente en la detección de tráfico anómalo y conexiones no autorizadas.
+
+- #### Acciones sobre los objetivos
+
+    - **Descripción**: El atacante realiza las acciones finales para lograr sus objetivos, como exfiltración de datos, destrucción de sistemas, o extorsión.
+
+    - **Relación con auditorías**: Relevante para todas las auditorías, ya que representa el impacto final de un ataque exitoso.
+
+### Auditoría de Ingeniería Social
+
+- **Fases relacionadas**: Reconocimiento, Weaponización y entrega
+- **Servicios**: Evaluación de vulnerabilidades a phishing, spear phishing y whaling
+- **Metodologías aplicables**: OSSTMM, ISSAF, Ethical Hacking
+
+### Auditoría de Malware
+
+- **Fases relacionadas**: Weaponización y entrega, Explotación, Instalación
+- **Servicios**: Análisis de virus, gusanos, troyanos, ransomware, spyware y adware
+- **Metodologías aplicables**: OSSTMM, ISSAF, Ethical Hacking, PTES
+
+### Auditoría de Redes y Sistemas
+
+- **Fases relacionadas**: Reconocimiento, Explotación, Instalación, Comando y control, Acciones sobre los objetivos
+- **Servicios**:
+  - Evaluación de vulnerabilidades a ataques DDoS
+  - Pruebas de penetración para detectar vulnerabilidades a ataques Man-in-the-Middle
+  - Auditoría de seguridad en aplicaciones web para prevenir inyecciones SQL y Cross-Site Scripting
+  - Evaluación de la robustez de contraseñas y políticas de acceso para prevenir ataques de fuerza bruta
+- **Metodologías aplicables**: OSSTMM, ISSAF, Ethical Hacking, PTES
 
 ## Evaluación de herramientas de monitorización
 
