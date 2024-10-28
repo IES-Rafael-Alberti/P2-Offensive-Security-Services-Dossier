@@ -70,12 +70,10 @@ Todas las políticas internas relacionadas con la ciberseguridad.
 + Aumento de la concienciación sobre la ciberseguridad por parte de los empleados reduciendo así posibles ataques de ingeniería social, de fuerza bruta o de malware que dependa de la acción de la víctima.
 + Mejora en la efectividad de las políticas internas.
 
+[Auditoría de seguridad informática: qué es, ventajas, tipos y fases](https://blog.hubspot.es/website/auditoria-de-seguridad
+)
+
 ## Propuesta de metodología de auditoría
 
 
 ## Propuesta de herramientas de monitorización
-
-
-## Fuentes
-[Auditoría de seguridad informática: qué es, ventajas, tipos y fases](https://blog.hubspot.es/website/auditoria-de-seguridad
-)

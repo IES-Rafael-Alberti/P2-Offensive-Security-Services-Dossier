@@ -176,6 +176,21 @@ Esta tabla resume los conocimientos técnicos y la interfaz de cada herramienta 
 | SQLMap | Gratuita | Windows, Linux, macOS | Escaneo y explotación de inyecciones SQL| Media (Interfaz de consola). Conocimientos básicos en base de datos | Media. Excelente para sitios individuales, y posibilidad de escalabilidad reducida para sistemas con mas de una base de datos| 
 |BruteX| Gratuita| Linux | Ataques de fuerza bruta a servicios de red | Media (Interfaz de consola). Fácil de usar pero con previos conociemientos en redes| Media. Adecuada para redes pequeñas, con limitaciones para redes muy grandes|
 
+## Inversión inicial
+Ahora crearemos una tabla donde recogeremos la inversión inicial que tendremos que tener para iniciar. En el recuento contaremos los sueldos, herramientas, portátiles y otros posibles gastos. 
+Las herramientas en su mayoría son de código abierto por lo que no tendremos que pagar nada, aunque algunas tienen subscripciones.  
+Todo el recunto de las herramientas que hemos seleccionado está recogído en nuestro [dossier](Dossier_Auditorias_Ofensivas.md).
+
+| Recurso / herramienta | Precio/mes |
+|------|-----|
+| Sueldos de los 3 integrantes | 1400 € x 3 = 4200 € |
+| Metasploit | Rango entre 250-330 mensuales según la empresa| 
+| Cofense | 10 € mensuales | 
+| Portátiles HP Victus 15-fa0059ns (3 integrantes) | 700€ x 3 = 2100€|
+| Otros posibles gastos | 1000 €
+| Total | 7.640 € |
+
+Contamos con que esto sería gasto mensual y los ordenadores solo entrarían dentro de los gastos del primer mes. 
 ## Conclusiones
 
 ## Fuentes
@@ -186,3 +201,5 @@ Esta tabla resume los conocimientos técnicos y la interfaz de cada herramienta 
 [Top mejores aplicaciones para pruebas de pishing](https://geekflare.com/es/phishing-simulation-software/)
 
 [10 herramientas de hacking ético](https://www.tokioschool.com/noticias/herramientas-hacking-etico/)
+
+[Ordenadores para la inversión](https://www.pccomponentes.com/hp-victus-15-fa0059ns-intel-core-i5-12450h-16gb-512gb-ssd-rtx-3050-156)
